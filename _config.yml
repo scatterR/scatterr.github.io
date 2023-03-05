@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dr. XX Z"
+title                    : "Xingyu Sonya Zhu"
 title_separator          : "-"
-name                     : &name "XX Z"
-description              : &description "Economist, Data scientist"
-url                      : https://scatterR.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Xingyu Sonya Zhu"
+description              : &description "Economist"
+url                      : "https://xingyu-sonya-zhu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "scatterR.github.io"
+repository               : "xingyu-sonya-zhu.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -44,8 +44,8 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
+#atom_feed:
+#  path                   : # blank (default) uses feed.xml
 
 # SEO Related
 google_site_verification : 
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               :  &twitter
 facebook:
   username               :
   app_id                 :
@@ -73,17 +73,17 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :  "UA-127655615-1"
+    tracking_id          :  "UA-280667678-1"
 
 # Site Author
 author:
-  name             : "Dr. Sonya Zhu"
-  avatar           : "twodoves.png"
-  bio              : "Data Science & NLP"
-  location         : #"Seattle, WA"
+  name             : "Xingyu Sonya Zhu"
+  avatar           : "cropped-Portraits2_Xingyu_2016v2.jpg"
+  bio              : "I am an Economist at the Bank for International Settlements. My areas of interest include asset pricing, market microstructure, and fintech."
+  location         : #"" #Stockholm, 111 60, Sweden
   employer         : #"Kaggle"
   googlescholar    : #"https://scholar.google.com/citations?user=1BKWg5gAAAAJ&hl=en"
-  email            : "xingyu.sonya.zhu@gmail.com"
+  email            : "sonya.zhu.90@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -168,16 +168,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
@@ -228,14 +228,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
@@ -255,14 +247,14 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  #- jekyll-feed
   - jekyll-redirect-from
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  #- jekyll-feed
   - jemoji
 
 
